@@ -9,3 +9,6 @@ function say(callback,name){
 }
 
 say(callback,"zhangsan");
+say(function(name){
+	console.log(name);
+},"callback");
