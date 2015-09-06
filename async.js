@@ -10,7 +10,10 @@ function printIt(){
 }
 
 function plus(){
-	c+=1;
+	setTimeout(function(){
+		c+=1;
+	},1000);
+
 }
 
 plus();
